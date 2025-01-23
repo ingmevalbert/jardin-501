@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(135, 155, 115);
+
+}
+#titulo{
+    background-color: darkgreen;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1px;
+    color: white;
+    font-size: 15px;
+}
+nav{
+    background-color: darkseagreen;
+    overflow: hidden;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+}
+nav ul li{
+    float: left;
+    margin-left: 350px;
+
+}
+nav ul li a{
+    display: block;
+    color: white;
+  
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    background-color: rgb(58, 110, 131);
+    border-radius: 5px;
+}
+#galeria{
+    margin: 10px 60px;
+    box-shadow: 0 4px 8px 0 white;
+    float: left;
+    width: 350px;
+    border-radius: 30px;
+}
+#galeria img{
+    border-radius: 30px;
+    width: 100%;
+    height: auto;
+
+}
+#galeria:hover{
+    border: 2px solid green;
+    transform: rotate(3deg);
+}
+#descripcion{
+    text-align: center;
+    text-shadow: 2px 2px 5px skyblue;
+    padding: 10px;
+    font-family: cursive;
+    color: white;
+}       
